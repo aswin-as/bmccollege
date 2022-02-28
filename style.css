@@ -305,9 +305,8 @@ footer p{
         padding: 30px;
     } */
 
-    body{
-        margin-bottom: 165px;
-    }
+   
+    
     footer{
         padding: 10px 10px;
     }
@@ -340,14 +339,16 @@ footer p{
         position: fixed;
         bottom: 0;
         width: 100%;
+       
     }
     #row{
         display: flex;
         flex-direction: row;
         padding: 10px;
         justify-content: space-around;
-        /* position: fixed;
-        bottom: 0; */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
     }
     #row li{
         list-style-type: none
